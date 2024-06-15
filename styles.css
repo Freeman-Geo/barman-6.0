@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+/** all */
+
+.skyblue{
+    font-weight: 600;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.center{
+    align-items: center;
+}
+
+.gap{
+    gap: 8px;
+}
+
+.border{
+    border: 1px solid blueviolet;
+}
+
+.scroll{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.bar-border{
+    position: fixed;
+    border: 2px solid blueviolet;
+    width: 96.5vw;
+    height: 92vh;
+}
+
+.tit--cont{
+    position: fixed;
+    border: 2px solid blueviolet;
+    width: 96.5vw;
+    height: 10vh;
+}
+
+.bar-top-cont{
+    position: fixed;
+    top: 12vh;
+    border: 2px solid blueviolet;
+    width: 96.5vw;
+    height: 33vh;
+}
+
+.bar-mid-cont{
+    position: fixed;
+    top: 45vh;
+    border: 2px solid blueviolet;
+    width: 96.5vw;
+    height: 30vh;
+}
+
+.bar-bot-cont{
+    position: fixed;
+    top: 75vh;
+    border: 2px solid blueviolet;
+    width: 96.5vw;
+    height: 19vh;
+}
+
+/* * Top */
+
+.top-containers{
+    width: 100%;
+
+}
+
+/* & left */
+
+.left-title{
+    color: white;
+    padding-top: 4vh;
+    margin-bottom: 0vh;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+
+.print{
+    height: 4vh;
+    width: 8vw;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.list-prices--container{
+    position: absolute;
+    top: 0vh;
+    /* border: 1px solid white; */
+    width: 40vw;
+    margin-top: 10vh;
+    height: 22vh;
+    padding: 10px;
+    color: white;
+   
+}
+
+/* & Middle */
+
+/* * Display videos */
+
+.top-mid-container{
+    width: auto;
+    text-align: center;
+}
+
+.video-bar{
+    width: 15vw;
+    height: 30vh;
+    margin-top: 1vh;
+}
+
+.video--bloody-mary{
+    display: none;
+}
+
+.video-daikiri-clásico{
+    display: none;
+}
+
+.video-daiquiri-frozen{
+    display: none;
+}
+
+.video-mai-thai{
+    display: none;
+}
+
+.video-margatita{
+    display: none;
+}
+
+.video-martini-sucio{
+    display: none;
+}
+
+.video-mojito{
+    display: none;
+}
+
+.video-negroni{
+    display: none;
+}
+.video-white-russian{
+    display: none;
+}
+
+/* & Right */
+
+.display-bebida{
+    color: white;
+    font-size: 1.5vw;
+    padding: 3px;
+    margin: 3px;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+
+.display-bloody-mary{
+     display: none;
+}
+.display-daiquiri-clasico{
+    display: none;
+}
+.display-daiquiri-frozen{
+    display: none;
+}
+.display-mai-thay{
+    display: none;
+}
+.display-margatita{
+    display: none;
+}
+.display-martini{
+    display: none;
+}
+.display-mojito{
+    display: none;
+}
+.display-negroni{
+    display: none;
+}
+.display-white-russian{
+    display: none;
+}
+
+
+
+/* * Middle */
+
+.prep-ice-cont{
+    position: absolute;
+    top: 0;
+    height: 30vh;
+}
+
+.prep-cont{
+    position: absolute;
+    top: 0;
+    height: 15vh;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.ice-cont{
+    position: absolute;
+    top: 15vh;
+    height: 50%;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.bottle-cont{
+    position: absolute;
+    border: 1px solid blueviolet;
+    left: 16vw;
+    width: 16vw;
+    height: 30vh;
+}
+
+.soda-jugo-cont{
+    position: absolute;
+    top: 0;
+    height: 30vh;
+}
+
+.soda-cont{
+    position: absolute;
+    left: 32VW;
+    top: 0;
+    height: 15vh;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.jugo-cont{
+    position: absolute;
+    left: 32vw;
+    top: 15vh;
+    height: 50%;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.syr-add-cont{
+    position: absolute;
+    top: 0;
+    height: 30vh;
+}
+
+.syrup-cont{
+    position: absolute;
+    left: 48VW;
+    top: 0;
+    height: 15vh;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.add-cont{
+    position: absolute;
+    left: 48vw;
+    top: 15vh;
+    height: 50%;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.glass-cont{
+    position: absolute;
+    border: 1px solid blueviolet;
+    left: 64vw;
+    width: 16vw;
+    height: 30vh;
+}
+
+.frost-dec-cont{
+    position: absolute;
+    top: 0;
+    height: 30vh;
+}
+
+.frost-cont{
+    position: absolute;
+    left: 80VW;
+    top: 0;
+    height: 15vh;
+    width: 16vw;
+    border: 1px solid blueviolet;
+}
+
+.dec-cont{
+    position: absolute;
+    top: 15vh;
+    border: 1px solid blueviolet;
+    left: 80vw;
+    width: 16vw;
+    height: 15vh;
+    
+}
+
+.prep-img{
+    width: 2.5vw;
+    align-self: end;
+    margin-left: 1.5vw;
+    cursor: pointer;
+}
+
+.ice-img{
+    width: 4vw;
+    align-self: end;
+    margin-left: .5vw;
+    cursor: pointer;
+}
+
+.bottle-img{
+    width: 3vw;
+    align-self: end;
+    margin-left: 1.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img-soda{
+    width: 2.5vw;
+    align-self: end;
+    margin-left: 1.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.img-juice{
+    width: 2.5vw;
+    align-self: end;
+    margin-left: 1.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.img-syrup{
+    width: 2vw;
+    align-self: end;
+    margin-left: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img-add{
+    width: 2vw;
+    align-self: end;
+    margin-left: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img-glass{
+    width: 3vw;
+    align-self: end;
+    margin-left: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.img-frost{
+    width: 4vw;
+    align-self: end;
+    margin-left: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img-dec{
+    width: 3vw;
+    align-self: end;
+    margin-left: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* * bottom */
+
+.bar-bot-cont{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.drink-button{
+    height: 18vh;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cocteles-p{
+    color: white;
+    
+}
+
+/* * Imágenes drinks */
+
+.button-img{
+    width: 2.8vw;
+}
